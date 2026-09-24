@@ -19,13 +19,18 @@ proxies:
     headers:
       Host: cf9.rumedia-cdn.com
 - name: 🇨🇭 瑞士 (Switzerland) 02 - xiaohe
-  server: 77.110.104.238
-  port: 443
+  server: 193.151.108.35
+  port: 43000
   udp: true
-  type: hysteria2
-  password: 5413edfb-08d6-4fba-b51c-809c04feb127
-  sni: ch2-hy2.veilvpn.life
-  skip-cert-verify: false
+  type: vless
+  uuid: 47f79fc1-0646-40e8-8a58-73e85d183d5a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: iEIUvfQSP4eHihDkzb-qAQ-9zGaIINRJDvgwOrt6bkQ
+    short-id: 75df7f65ba2a8155
+  servername: 193.151.108.35
+  client-fingerprint: safari
 proxy-groups:
 - name: PROXIES
   type: select
