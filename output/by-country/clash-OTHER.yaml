@@ -5,27 +5,35 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 188.114.97.6
-  port: 2086
+  server: 104.21.62.234
+  port: 443
   udp: true
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  tls: true
+  servername: 5-M19.sudaN-parK.ccwU.cC
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /CjBjB9sn5pCvaSwScc
     headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+      Host: 5-M19.sUdaN-PArK.ccWu.CC
 - name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: 188.114.97.6
-  port: 2086
+  server: 104.21.41.158
+  port: 443
   udp: true
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  tls: true
+  servername: 8-M19.nORth-koReA-PArk.KdNs.fr
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /CjBjB9sn5pCvaSwScc
     headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+      Host: 8-m19.nortH-koREA-parK.KDns.FR
 proxy-groups:
 - name: PROXIES
   type: select
